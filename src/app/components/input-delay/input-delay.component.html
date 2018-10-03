@@ -1,0 +1,5 @@
+<h2>Input delay</h2>
+<form [formGroup]="testForm">
+  <input type="text" formControlName="testInput">
+</form>
+<p><strong>Result:</strong> {{$testFormValue | async | json}}</p>
